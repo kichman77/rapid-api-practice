@@ -1,1 +1,1 @@
-# rapid-api-practice
+# initial-repository
