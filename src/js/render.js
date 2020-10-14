@@ -1,7 +1,8 @@
 import refs from "./refs.js"
 import fetch from "./fetch.js"
 import template from "../template/template.hbs"
-import  debounce from "lodash.debounce"
+import debounce from "lodash.debounce"
+
 
 refs.input.addEventListener("input", debounce((e) => {
   refs.list.innerHTML = "";

@@ -21,7 +21,7 @@ img {
   font-size: 25px;
 }
 .ingredient-item:not(:last-child) {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .ingredient-item:not(:nth-child(2n)) {
   display: block;
@@ -42,6 +42,7 @@ margin-bottom: 10px;
   background-color: black;
   border: 1px solid wheat;
   color: wheat;
+  font-size: 20px;
 }
 .description {
   display: block;
@@ -49,4 +50,44 @@ margin-bottom: 10px;
 }
 .cocktail-text {
   font-size: 20px;
+}
+
+.button-submit {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: black;
+  border: 1px solid wheat;
+  color: wheat;
+}
+#password,
+#login,
+.in-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: black;
+  border: 1px solid wheat;
+  color: wheat;
+}
+.form-box {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.form-lable {
+  font-size: 18px;
+}
+#signUp-form {
+  margin-bottom: 30px;
+}
+.singUp {
+  display: block;
+}
+
+.is-hidden {
+  display: none;
 }
